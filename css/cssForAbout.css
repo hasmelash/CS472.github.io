@@ -23,3 +23,7 @@ p::first-letter{
 p{
     transform: rotateX(180deg);
 }
+ol{
+    display: flex;
+    flex-direction: column-reverse;
+}
