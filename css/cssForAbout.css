@@ -4,11 +4,22 @@ h2{
 }
 a{
     color: darkred;
+    text-decoration-line: none;
+}
+a:hover{
+    text-decoration-line: underline;
 }
 
 body {
-    background-color: saddlebrown;
+    background-color: grey;
     color: white;
 
 }
 
+p::first-letter{
+    font-size: 150% ;
+
+}
+p{
+    transform: rotateX(180deg);
+}
