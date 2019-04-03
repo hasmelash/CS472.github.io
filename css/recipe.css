@@ -25,7 +25,10 @@ h2{
 
 }
 body{
-    background: white;
+    /*background: white;*/
+    background-image: url("../image/silverware.jpg");
+    background-repeat: repeat;
+    /*background-color: #A4A400;*/
     color: #404040;
     font-family: Georgia,Garamond;
     font-size: 11pt;
@@ -47,10 +50,14 @@ pre.copyright{
 }
 span{
     text-decoration-line: line-through;
+
 }
 a{
     color:  #A4A400;
 }
 abbr{
     text-decoration-line: underline;
+}
+*{
+
 }
