@@ -1,0 +1,122 @@
+*{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+    margin: 0;
+    padding:0;
+
+}
+body{
+    background-image: url("../image/background.png");
+
+}
+header{
+    background-image: url("../image/bannerbg.png");
+    text-align: center;
+}
+#back{
+    background-image: url("/image/bannerbg.png");
+}
+h1.heading{
+    text-align: center;
+}
+div.main{
+    margin: auto;
+    /*display: inline;*/
+    /*box-sizing: border-box;*/
+    max-width: 55%;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+#bottom{
+
+    background-color: darkseagreen;
+    position: absolute;
+    bottom: 0%;
+    width: 70%;
+
+}
+#definitions{
+    margin: 5%;
+
+}
+#right{
+    margin: 0px;
+    float: right;
+    padding: 0px;
+    background-color: darkseagreen;
+    max-width: 30%;
+    overflow: hidden;
+    display: inline-block;
+
+}
+#left{
+    overflow: hidden;
+    float: left;
+    max-width: 70%;
+
+}
+#lefttop{
+
+    background-image: url("../image/rbg.png");
+    background-repeat: repeat-x;
+    margin: auto;
+    padding: 0px;
+    height: auto;
+    font-family: Arial;
+    color: #F0F0F0;
+    font-size: 3vw;
+}
+
+#lefttop .img{
+    vertical-align: middle;
+}
+.leftmain{
+    max-width: 50%;
+    max-height: 20cm;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.leftmain > p.sets{
+    margin: 8px;
+    padding: 5px;
+    background-color: lemonchiffon;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #404040;
+    border-radius: 11px;
+    overflow: hidden;
+}
+.leftmain > p.wends{
+    margin: 5px;
+    padding: 5px;
+    vertical-align: middle;
+}
+.leftmain > p.wends > .comment{
+    float: left;
+}
+#rightpic{
+    /*float: right;*/
+    max-height: 100%;
+    display: flex;
+
+    /*overflow: auto;*/
+}
+dt {
+    /*margin-left: 5%;*/
+    /*margin-right: 5%;*/
+    font-weight: bold;
+    /*text-decoration: underline;*/
+}
+dd {
+    margin: 0;
+    padding: 0 0 1.5em 4em;
+}
+
+
+
