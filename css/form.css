@@ -1,0 +1,13 @@
+.table, td, th{
+    margin: 5px;
+    padding: 5px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+
+}
+thead{
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(even){background-color: #f2f2f2}
